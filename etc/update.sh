@@ -15,7 +15,7 @@ function update_git_repo {
         cd ${path}
         git fetch --all --verbose
         git clean -d -x --force
-        git reset --hard origin/master
+        git reset --hard origin/sector
     fi
 }
 
